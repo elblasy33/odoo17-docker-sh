@@ -8,7 +8,7 @@ Installing Odoo 14 with one command.
 Install [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/) yourself, then run:
 
 ``` bash
-curl -s https://raw.githubusercontent.com/elblasy33/odoo14-docker-sh/main/run.sh | sudo bash -s odoo14-one 10014 20014
+curl -s https://raw.githubusercontent.com/elblasy33/odoo14-docker-sh/main/run.sh | sudo bash -s odoo17-one 10017 20017
 ```
 
 to set up first Odoo instance @ `localhost:10014` (default master password: `Elblasy2022@1234`)
@@ -16,15 +16,15 @@ to set up first Odoo instance @ `localhost:10014` (default master password: `Elb
 and
 
 ``` bash
-curl -s https://raw.githubusercontent.com/elblasy33/odoo14-docker-sh/main/run.sh | sudo bash -s odoo14-two 11014 21014
+curl -s https://raw.githubusercontent.com/elblasy33/odoo14-docker-sh/main/run.sh | sudo bash -s odoo17-two 11027 21027
 ```
 
 to set up another Odoo instance @ `localhost:11014` (default master password: `Elblasy2022@1234`)
 
 Some arguments:
-* First argument (**odoo14-one**): Odoo deploy folder
-* Second argument (**10014**): Odoo port
-* Third argument (**20014**): live chat port
+* First argument (**odoo17-one**): Odoo deploy folder
+* Second argument (**100174**): Odoo port
+* Third argument (**20017**): live chat port
 
 If `curl` is not found, install it:
 
@@ -41,7 +41,7 @@ Start the container:
 docker-compose up
 ```
 
-* Then open `localhost:10014` to access Odoo 14.0. If you want to start the server with a different port, change **10014** to another value in **docker-compose.yml**:
+* Then open `localhost:10014` to access Odoo 17.0. If you want to start the server with a different port, change **10017** to another value in **docker-compose.yml**:
 
 ```
 ports:
@@ -121,7 +121,7 @@ server {
 
 # docker-compose.yml
 
-* odoo:14.0
+* odoo:17.0
 * postgres:14
 
 # Odoo 14 screenshots
