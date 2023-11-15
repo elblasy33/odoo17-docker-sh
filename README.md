@@ -1,14 +1,14 @@
 # odoo-docker-sh
  # Quick install
 
-Installing Odoo 14 with one command.
+Installing Odoo 17 with one command.
 
 (Supports multiple Odoo instances on one server)
 
 Install [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/) yourself, then run:
 
 ``` bash
-curl -s https://raw.githubusercontent.com/elblasy33/odoo14-docker-sh/main/run.sh | sudo bash -s odoo17-one 10017 20017
+curl -s https://raw.githubusercontent.com/elblasy33/odoo17-docker-sh/main/run.sh | sudo bash -s odoo17-one 10017 20017
 ```
 
 to set up first Odoo instance @ `localhost:10014` (default master password: `Elblasy2022@1234`)
