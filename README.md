@@ -16,7 +16,7 @@ to set up first Odoo instance @ `localhost:10014` (default master password: `Elb
 and
 
 ``` bash
-curl -s https://raw.githubusercontent.com/elblasy33/odoo14-docker-sh/main/run.sh | sudo bash -s odoo17-two 11027 21027
+curl -s https://raw.githubusercontent.com/elblasy33/odoo17-docker-sh/main/run.sh | sudo bash -s odoo17-two 11027 21027
 ```
 
 to set up another Odoo instance @ `localhost:11014` (default master password: `Elblasy2022@1234`)
